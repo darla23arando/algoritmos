@@ -1,0 +1,25 @@
+package ejercicio7;
+
+import java.util.Scanner; 
+
+public class ejercicio7 {
+	
+public static void main(String[] args) {
+	
+	Scanner datos = new Scanner (System.in);
+	
+		float nota;
+		
+			System.out.println("ingresa la calificacion que tendras en el año de laboratoria de algoritmos y estructura de datos(1-10): ");
+		nota = datos.nextFloat();
+		
+		int entero = (int) Math.round(nota);
+		
+			System.out.println("El numero redondeado es: " + entero);
+	
+			double numeroAleatorio = Math.random()*10;
+
+	
+	
+}
+}

@@ -1,0 +1,25 @@
+package ejercicio7;
+
+import java.util.Scanner; 
+
+public class ejercicio7 {
+	
+public static void main(String[] args) {
+	
+	Scanner datos = new Scanner (System.in);
+	
+		int numero;
+		
+			System.out.println("ingresa la calificacion que tendras en el año de laboratoria de algoritmos y estructura de datos: ");
+		nota = datos.nextFloat();
+				
+	 	int numeroAleatorio = Math.random(numero);
+		
+			System.out.println("este es la calificacion que tendras en el año de laboratoria de algoritmos y estructura de datos: " + numeroAleatorio);
+	
+
+
+	
+	
+}
+}
